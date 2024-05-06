@@ -1,0 +1,2 @@
+coverage run --source=code --omit="test_*" -m unittest discover -s test -p 'test_*.py'
+coverage xml -o cobertura.xml
